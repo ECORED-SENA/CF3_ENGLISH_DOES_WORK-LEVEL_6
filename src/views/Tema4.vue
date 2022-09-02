@@ -5,201 +5,303 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 <em>We have been enjoying our free time a lot</em> (Hemos estado disfrutando mucho de nuestro tiempo libre)
+      h1 #[i If we hadn’t been busy, we would have gone to the fashion show] / (Si no hubiéramos estado ocupados, habríamos ido al desfile de moda)
     .row.justify-content-center.mb-5
+      .col-lg-5: img(src='@/assets/curso/temas/tema4/1.jpg')
       .col-lg-7.mb-lg-0.mb-3
         p
-          span.r-4.fst-italic.fw-normal When talking about leisure activities or free time activities, it is important to take into account all of those activities that we do in order to have fun. It is not about all of those obligations that we have in our daily life. 
+          span.r-4.fst-italic.fw-normal To talk about our daily life, the desires we yearn for and hypothetical situations, it is important to know and manage vocabulary about leisure activities, news, lifestyles, and trends. Some terms to keep in mind are:
           br
           br
-          span.text-gray Cuando se habla de actividades de ocio o actividades de tiempo libre, es importante tener en cuenta todas aquellas actividades que realizamos para divertirnos. No se trata de todas esas obligaciones que tenemos en nuestra vida diaria.
+          span.text-gray Para hablar de nuestra vida cotidiana, de los deseos que anhelamos y de situaciones hipotéticas, es importante conocer y manejar vocabulario sobre actividades de ocio, noticias, estilos de vida y tendencias. Algunos términos para tener en cuenta son:
 
-      .col-lg-5: img(src='@/assets/curso/temas/45.svg')
-    .margin-n.p-5(style='background-color: #d5d6f0').mb-5
-      p.text-center Observe y escuche vocabulario de algunas actividades de ocio o actividades de tiempo libre:
-      .tarjeta.bg-white.p-4
-        SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-          .tarjeta.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/temas/46.svg' alt='AvatarTop')
-            .tarjeta.bg-white.p-2
-              p.text-center <em><b>Dance</b></em>
-                br
-                br
-                span.text-gray Bailar
-              .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/1.mp3')").m-auto.mb-2
+    .margin-n.p-5(style='background-color: #D5D6F0').mb-5
+      .row.justify-content-center.mb-5
+        .col-lg-10
+          img.mb-4(src='@/assets/curso/temas/tema4/2.svg', alt='')
+          .tarjeta.bg-white.p-4.adornos
+            SlyderF.mb-5(columnas="col-lg-4 col-xl-4")
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/3.svg' alt='AvatarTop')
                 p.text-center
-                  span.r-1.fst-italic I danced at a party yesterday. 
-                  br 
-                  | Yo bailé en una fiesta ayer.
-          .tarjeta.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/temas/47.svg' alt='AvatarTop')
-            .tarjeta.bg-white.p-2
-              p.text-center <em><b>Sing</b></em>
-                br
-                br
-                span.text-gray Cantar
-              .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/2.mp3')").m-auto.mb-2
+                  span.fw-bold.fst-italic Online videos
+                  br
+                  span.text-gray Videos en línea
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic I would watch online videos if I had a computer.
+                    br
+                    | I would watch online videos if I had a computer.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/4.svg' alt='AvatarTop')
                 p.text-center
-                  span.r-1.fst-italic My brother has been singing for years.
-                  br 
-                  | Mi hermano ha estado cantando por años.
-          .tarjeta.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/temas/48.svg' alt='AvatarTop')
-            .tarjeta.bg-white.p-2
-              p.text-center <em><b>Go shopping</b></em>
-                br
-                br
-                span.text-gray Ir de compras
-              .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/3.mp3')").m-auto.mb-2
+                  span.fw-bold.fst-italic Social media
+                  br
+                  span.text-gray Redes sociales
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If I had opened my social media, I would have become famous by now.
+                    br
+                    | Si hubiera abierto mis redes sociales, para este momento ya sería famoso.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/5.svg' alt='AvatarTop')
                 p.text-center
-                  span.r-1.fst-italic We have gone shopping twice this month. 
-                  br 
-                  | Nosotros hemos ido de compras dos veces este mes.
-          .tarjeta.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/temas/49.svg' alt='AvatarTop')
-            .tarjeta.bg-white.p-2
-              p.text-center <em><b>Eat out</b></em>
-                br
-                br
-                span.text-gray Salir a comer
-              .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/4.mp3')").m-auto.mb-2
+                  span.fw-bold.fst-italic Chatting (to chat)
+                  br
+                  span.text-gray  Chatear, charlar (en línea)
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If I chatted more often, I would have more friends.
+                    br
+                    | Si yo chateara más seguido, tendría más amigos.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop')
                 p.text-center
-                  span.r-1.fst-italic I haven’t eaten out with my brother this year. 
-                  br 
-                  | No he salido a comer con mi hermano este año.
-          .tarjeta.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/temas/50.svg' alt='AvatarTop')
-            .tarjeta.bg-white.p-2
-              p.text-center <em><b>Sleep late</b></em>
-                br
-                br
-                span.text-gray Dormir hasta tarde
-              .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/5.mp3')").m-auto.mb-2
+                  span.fw-bold.fst-italic To surf the Internet
+                  br
+                  span.text-gray Navegar en Internet
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If I hadn’t surfed the Internet yesterday, I would have finished my duties.
+                    br
+                    | Si no hubiera navegado en Internet ayer, habría terminado mis deberes.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/7.svg' alt='AvatarTop')
                 p.text-center
-                  span.r-1.fst-italic I haven’t slept late in months. 
-                  br 
-                  | No he dormido hasta tarde en meses.
-          .tarjeta.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/temas/51.svg' alt='AvatarTop')
-            .tarjeta.bg-white.p-2
-              p.text-center <em><b>Fish</b></em>
-                br
-                br
-                span.text-gray Pescar
-              .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/6.mp3')").m-auto.mb-2
+                  span.fw-bold.fst-italic Smartphone
+                  br
+                  span.text-gray Teléfono inteligente
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If I had a good smartphone, I would become an influencer.
+                    br
+                    | Si tuviera un buen teléfono inteligente, me convertiría en un influencer.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/8.svg' alt='AvatarTop')
                 p.text-center
-                  span.r-1.fst-italic My father has been fishing for hours. 
-                  br 
-                  | Mi papá ha estado pescando por horas. 
-          .tarjeta.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/temas/52.svg' alt='AvatarTop')
-            .tarjeta.bg-white.p-2
-              p.text-center <em><b>Check social networks</b></em>
-                br
-                br
-                span.text-gray Revisar redes sociales 
-              .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/7.mp3')").m-auto.mb-2
+                  span.fw-bold.fst-italic Online news
+                  br
+                  span.text-gray  Noticias en línea
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic  I would read the online news if they weren’t that sensationalist.
+                    br
+                    | Leería las noticias en línea si no fueran tan sensacionalistas. 
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/9.svg' alt='AvatarTop')
                 p.text-center
-                  span.r-1.fst-italic Sara has been checking her social networks for an hour.  
-                  br 
-                  | Sara ha estado revisando sus redes sociales por una hora.
-          .tarjeta.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/temas/53.svg' alt='AvatarTop')
-            .tarjeta.bg-white.p-2
-              p.text-center <em><b>Go sightseeing</b></em>
-                br
-                br
-                span.text-gray  Ir a turistear
-              .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/8.mp3')").m-auto.mb-2
+                  span.fw-bold.fst-italic Weather report
+                  br
+                  span.text-gray Informe meteorológico, pronóstico del tiempo
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If I had checked the weather report, I wouldn’t have gotten wet this morning.
+                    br
+                    | Si hubiera revisado el pronóstico del tiempo, no me habría mojado esta mañana.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/10.svg' alt='AvatarTop')
                 p.text-center
-                  span.r-1.fst-italic My family has gone sightseeing in Europe.
-                  br 
-                  | Mi familia ha ido a turistear en Europa.
-          .tarjeta.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/temas/54.svg' alt='AvatarTop')
-            .tarjeta.bg-white.p-2
-              p.text-center <em><b>Paint</b></em>
-                br
-                br
-                span.text-gray Pintar
-              .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/9.mp3')").m-auto.mb-2
+                  span.fw-bold.fst-italic Tabloids
+                  br
+                  span.text-gray Tabloides, periódicos sensacionalistas, revistas de chismes
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If there weren’t any tabloids, famous people would be happier.
+                    br
+                    | Si no hubiera tabloides, los famosos serían más felices.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/11.svg' alt='AvatarTop')
                 p.text-center
-                  span.r-1.fst-italic The artist has been painting that picture for years. 
-                  br 
-                  | El artista ha estado pintando esa pintura por años.
-          .tarjeta.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/temas/55.svg' alt='AvatarTop')
-            .tarjeta.bg-white.p-2
-              p.text-center <em><b>Do yoga</b></em>
-                br
-                br
-                span.text-gray Hacer yoga
-              .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/10.mp3')").m-auto.mb-2
+                  span.fw-bold.fst-italic Breaking news
+                  br
+                  span.text-gray Noticias de última hora
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If we had seen the breaking news, we would have known about the tornado before.
+                    br
+                    | Si hubiésemos visto las noticias de última hora, habríamos sabido del tornado antes.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/12.svg' alt='AvatarTop')
                 p.text-center
-                  span.r-1.fst-italic My mother has been doing yoga since 2017.
-                  br 
-                  | Mi mamá ha estado haciendo yoga desde 2017. 
-          .tarjeta.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/temas/56.svg' alt='AvatarTop')
-            .tarjeta.bg-white.p-2
-              p.text-center <em><b>Chill</b></em>
-                br
-                br
-                span.text-gray Relajarse
-              .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/11.mp3')").m-auto.mb-2
+                  span.fw-bold.fst-italic Advertising
+                  br
+                  span.text-gray Publicidad, anuncios, propaganda
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If I paid more advertising for my webpage, I would have more clients.
+                    br
+                    | Si pagara más publicidad para mi página web, tendría más clientes.
+            SlyderF.mb-5(columnas="col-lg-4 col-xl-4")
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/13.svg' alt='AvatarTop')
                 p.text-center
-                  span.r-1.fst-italic I have been chilling for 2 hours. 
-                  br 
-                  | Yo he estado relajándome por 2 horas.
-          .tarjeta.color-primario.p-4.h-100
-            .row.justify-content-center.mb-3
-              .col-6
-                img(src='@/assets/curso/temas/57.svg' alt='AvatarTop')
-            .tarjeta.bg-white.p-2
-              p.text-center <em><b>Tell stories </b></em>
-                br
-                br
-                span.text-gray Contar historias
-              .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/12.mp3')").m-auto.mb-2
+                  span.fw-bold.fst-italic Trendy (fashionable)
+                  br
+                  span.text-gray De moda, vanguardista 
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If I had more money, I would buy trendy clothes.
+                    br
+                    | Si yo tuviera más dinero, compraría ropa de moda.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/14.svg' alt='AvatarTop')
                 p.text-center
-                  span.r-1.fst-italic My teacher has been telling stories the whole class. 
-                  br 
-                  | Mi profesor ha estado contando historias toda la clase.
-
+                  span.fw-bold.fst-italic Designer label
+                  br
+                  span.text-gray Marca de diseñador
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If she had been a model, she would have worn designer label pieces of clothes.
+                    br
+                    | Si ella hubiera sido modelo, habría usado prendas de marca de diseñador.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/15.svg' alt='AvatarTop')
+                p.text-center
+                  span.fw-bold.fst-italic Catwalk
+                  br
+                  span.text-gray Pasarela
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If we had arrived earlier, we would have been able to see the models walk down the catwalk.
+                    br
+                    | Sí nosotros hubiéramos llegado más temprano, habríamos podido ver a las modelos desfilar por la pasarela.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/16.svg' alt='AvatarTop')
+                p.text-center
+                  span.fw-bold.fst-italic Wardrobe
+                  br
+                  span.text-gray Vestuario, guardarropa
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If I lived in a country with seasons, I would invest in a fashionable winter wardrobe.
+                    br
+                    | Si viviera en un país con estaciones, invertiría en un vestuario de invierno a la moda.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/17.svg' alt='AvatarTop')
+                p.text-center
+                  span.fw-bold.fst-italic Street market
+                  br
+                  span.text-gray Mercado callejero, mercadillo
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If they had gone to the street market, they would have gotten better discounts.
+                    br
+                    | Si ellos hubieran ido al mercadillo, habrían conseguido mejores descuentos.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/18.svg' alt='AvatarTop')
+                p.text-center
+                  span.fw-bold.fst-italic Farmers market
+                  br
+                  span.text-gray Mercado campesino, mercado de productores (al aire libre)
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If she wanted to take care of her health, she would buy more organic vegetables at the farmers market.
+                    br
+                    | Si ella quisiera cuidar su salud, compraría más verduras orgánicas en el mercado campesino.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/19.svg' alt='AvatarTop')
+                p.text-center
+                  span.fw-bold.fst-italic Lifestyle
+                  br
+                  span.text-gray Estilo de vida
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If he had had a healthier lifestyle, he would not have gotten sick.
+                    br
+                    | Si él hubiera tenido un estilo de vida más saludable, no se habría enfermado.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/20.svg' alt='AvatarTop')
+                p.text-center
+                  span.fw-bold.fst-italic Balanced diet
+                  br
+                  span.text-gray Dieta equilibrada, alimentación balanceada
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If you ate a balanced diet, you would be slimmer.
+                    br
+                    | Si ustedes comieran una dieta balanceada, serían más delgados.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/21.svg' alt='AvatarTop')
+                p.text-center
+                  span.fw-bold.fst-italic Snack
+                  br
+                  span.text-gray Bocadillo, refrigerio, merienda
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If we hadn’t prepared more snacks, the children would have been hungry.
+                    br
+                    | Si no hubiéramos preparado más bocadillos, los niños habrían tenido hambre.
+              .tarjeta.color-acento-contenido.hbg--4.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/temas/tema4/22.svg' alt='AvatarTop')
+                p.text-center
+                  span.fw-bold.fst-italic Processed food
+                  br
+                  span.text-gray Alimentos procesados
+                .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  p.text-center
+                    span.r-1.fst-italic If processed foods were healthier, I would eat them more often.
+                    br
+                    | Si los alimentos procesados fueran más saludables, yo los comería más seguido.
 
     Dialogo.color-acento-contenido(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
@@ -224,70 +326,58 @@ export default {
     dialogo: {
       personajes: [
         {
-          nombre: 'Sandra',
-          img: require('@/assets/curso/temas/sandra.svg'),
+          nombre: 'Ana',
+          img: require('@/assets/curso/temas/tema4/ana.svg'),
         },
         {
-          nombre: 'David',
-          img: require('@/assets/curso/temas/david.svg'),
+          nombre: 'Maria',
+          img: require('@/assets/curso/temas/tema4/maria.svg'),
         },
       ],
       dialogo: [
         {
-          personaje: 'Sandra',
+          personaje: 'Ana',
           textoIng:
-            'Hey David, did you practice many sports when you were a child?',
+            'María, what would you do if you were a famous *** influencer?',
           textoEsp: 'Pendiente traduccion',
           audio: require('@/assets/audios/a4/1.wav'),
+          palabra: 'social media',
         },
         {
-          personaje: 'David',
+          personaje: 'Maria',
           textoIng:
-            'Sure! My parents have been registering me to try new activities.',
+            'Good question! If I were that popular, I would record videos for my YouTube channel and also wear the trendiest outfits like *** clothes and stuff like that. ',
           textoEsp: '',
           audio: require('@/assets/audios/a4/2.mp3'),
+          palabra: 'designer label ',
         },
         {
-          personaje: 'Sandra',
-          textoIng: 'What sports have you practiced?',
+          personaje: 'Ana',
+          textoIng: ' So, you would be like a celebrity.',
           textoEsp: '',
           audio: require('@/assets/audios/a4/3.wav'),
         },
         {
-          personaje: 'David',
-          textoIng:
-            'Well, I have played ***, volleyball, football, and of course basketball. ',
+          personaje: 'Maria',
+          textoIng: 'For sure! What about you?',
           textoEsp: '',
           audio: require('@/assets/audios/a4/4.mp3'),
-          palabra: 'tennis',
         },
         {
-          personaje: 'Sandra',
-          textoIng: 'Wow! Have you ever tried any other activities?',
+          personaje: 'Ana',
+          textoIng:
+            'Well, if I were a famous social media influencer, I would also be a celebrity, but I would also model on all the *** of the most famous fashion weeks in the world.',
           textoEsp: '',
           audio: require('@/assets/audios/a4/5.wav'),
+          palabra: 'catwalks',
         },
         {
-          personaje: 'David',
+          personaje: 'Maria',
           textoIng:
-            'Yes! I have done yoga, I have gone camping, I have *** and played chess. ',
+            'That’s good! Because famous influencers are doing very well with fashion content creation these days!',
           textoEsp: '',
           audio: require('@/assets/audios/a4/6.mp3'),
           palabra: 'fished',
-        },
-        {
-          personaje: 'Sandra',
-          textoIng: 'I have always loved fishing! Have you been *** recently?',
-          textoEsp: '',
-          audio: require('@/assets/audios/a4/7.wav'),
-          palabra: 'fishing',
-        },
-        {
-          personaje: 'David',
-          textoIng:
-            'Not really, but three months ago something incredible happened, I got a small shark, it was terrifying!',
-          textoEsp: '',
-          audio: require('@/assets/audios/a4/8.mp3'),
         },
       ],
     },

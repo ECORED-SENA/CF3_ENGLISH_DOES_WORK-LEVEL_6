@@ -112,9 +112,118 @@
               br 
               | Te había llamado muchas veces antes que contestaras.
     Separador
-    
+    #t_2_2.titulo-segundo.color-primario(data-aos='fade-right')
+      h2 2.2  #[i Use of “would have”] (Uso del “would have”)
+    p.mb-5
+      span.r-3.fw-normal.fst-italic “Would have” is just an expression that helps you show something you would have liked to do. There is only one important rule: the verb after “would have” has to be written in past participle. 
+      span.text-gray / #[i “Would have”] es solo una expresión que le ayuda a mostrar algo que le hubiera gustado hacer. Solo hay una regla importante: el verbo que sigue a “would have” tiene que escribirse en participio pasado.
+    .titulo-sexto.color-primario(data-aos='fade-right')
+      h5 Figura 3 
+      span.fst-italic Use of “would have”
+    .row.justify-content-center.mb-5
+      .col-lg-8: img(src='@/assets/curso/temas/tema2/10.svg', alt='')
+      .col-lg-4
+        TarjetaAudio.color-primario.bg-white.mb-3(
+          texto=" I would have <span class='f-2'>eaten</span> <span class='r-3'> if</span> I hadn’t eaten before.."
+          :audio="require('@/assets/audios/tema2/3.mp3')"
+          )
+    p.text-center.mb-5 
+      span.r-3.fw-normal Now, we will check some examples: 
+      span.text-gray / A continuación, veremos más ejemplos: 
+    .row.justify-content-center.mb-5
+      .col-lg-4
+        .tarjeta.color-acento-contenido.p-4.hbg--4.h-100
+          img.mb-3(src='@/assets/curso/temas/tema2/11.png', alt='')
+          .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+            Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+            p.text-center
+              span.r-1.fst-italic She 
+                span.r-4 would have earned
+                | a lot of money, but she didn’t get the job.
+              br 
+              |   Ella habría ganado mucho dinero, pero no obtuvo el trabajo. 
+      .col-lg-4
+        .tarjeta.color-acento-contenido.p-4.hbg--4.h-100
+          img.mb-3(src='@/assets/curso/temas/tema2/12.png', alt='')
+          .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+            Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+            p.text-center
+              span.r-1.fst-italic I 
+                span.r-4 would have gone
+                | o the party, but I was tired.
+              br 
+              | Habría ido a la fiesta, pero estaba cansa
+      .col-lg-4
+        .tarjeta.color-acento-contenido.p-4.hbg--4.h-100
+          img.mb-3(src='@/assets/curso/temas/tema2/13.png', alt='')
+          .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+            Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+            p.text-center
+              span.r-1.fst-italic Daniel 
+                span.r-4 ould have traveled 
+                | f he had enough money.
+              br 
+              |   Daniel habría viajado si hubiese tenido suficiente dinero. 
+    p.text-center.mb-5 
+      span.r-3.fw-normal Finally, we will see the third conditional structure: 
+      span.text-gray / Para finalizar, veamos la estructura del tercer condicional:
+    .tarjeta.rounded-0.margin-n.p-5(style='background-color: #F3F9FF').mb-5
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-8
+          img(src='@/assets/curso/temas/tema2/14.svg', alt='')
+        .col-lg-4
+          TarjetaAudio.color-primario.bg-white.mb-5(
+          texto="<span class='r-3'>If</span> you had called before, <span class='r-4'>I would have made some tea.</span>"
+          :audio="require('@/assets/audios/tema2/3.mp3')"
+          )
+          TarjetaAudio.color-primario.bg-white(
+          texto="<span class='r-4'>I would have made some tea</span> <span class='r-3'>if</span> you had called before."
+          :audio="require('@/assets/audios/tema2/3.mp3')"
+          )
+    .row.justify-content-center.mb-5
+      .col-lg-7
+        .contenedor-traductor
+          .contenedor-traductor__eng
+            p.fst-italic The third conditional There isn’t a specific way of writing conditional sentences, and the third conditional is not an exception. Both ways, starting with the conditional word or the result are ok, it only depends on the intention or the emphasis of the sentence.
+          .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
+            p 
+              span.r-5 No hay una forma específica de escribir oraciones condicionales, y el tercer condicional no es una excepción. De ambas formas, empezando por la frase condicional o el resultado, está bien, solo depende de la intención o el énfasis de la oración.
 
-
+          a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
+      .col-lg-5 
+        SlyderF.mb-5(columnas="col-lg-12 ")
+          .tarjeta.bg-background.p-5.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/15.jpg')})`}" style='height: 440px')
+            .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+              Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')" ).m-auto.mb-2
+              p.text-center
+                span.r-1.fst-italic If I 
+                  span.r-4 had studied 
+                  | more, I 
+                  span.r-4 would have passed 
+                  | the exam.
+                br
+                | Si hubiese estudiado más, habría pasado el examen. 
+          .tarjeta.bg-background.p-5.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/16.jpg')})`}" style='height: 440px')
+            .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+              Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')" ).m-auto.mb-2
+              p.text-center
+                span.r-1.fst-italic She 
+                  span.r-4 would have paid 
+                  | less if she 
+                  span.r-4 had bought it then.
+                br
+                | Ella habría pagado menos si lo hubiese comprado en ese momento.
+          .tarjeta.bg-background.p-5.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/17.jpg')})`}" style='height: 440px')
+            .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
+              Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')" ).m-auto.mb-2
+              p.text-center
+                span.r-1.fst-italic If you 
+                  span.r-4 had gotten 
+                  | that job, you 
+                  span.r-4 would have had 
+                  | a terrible life.
+                br
+                | Si (usted) hubiese Martinado ese trabajo, (usted) habría tenido una vida terrible. 
     
 
 
@@ -143,68 +252,54 @@ export default {
     dialogo: {
       personajes: [
         {
-          nombre: 'Tom',
-          img: require('@/assets/curso/temas/tom.svg'),
+          nombre: 'Martin',
+          img: require('@/assets/curso/temas/tema2/martin.svg'),
         },
         {
-          nombre: 'Maria',
-          img: require('@/assets/curso/temas/maria.svg'),
+          nombre: 'Jimmy',
+          img: require('@/assets/curso/temas/tema2/jimmy.svg'),
         },
       ],
       dialogo: [
         {
-          personaje: 'Tom',
-          textoIng: 'Maria, how did you spend your weekend?',
+          personaje: 'Martin',
+          textoIng: 'I can’t believe that!',
           textoEsp: 'Pendiente traduccion',
           audio: require('@/assets/audios/a2/1.mp3'),
         },
         {
-          personaje: 'Maria',
-          textoIng:
-            'Well, I went to my aunt’s house, but it rained ***  I entered the house.',
+          personaje: 'Jimmy',
+          textoIng: 'What happened dude?',
           textoEsp: '',
           audio: require('@/assets/audios/a2/2.wav'),
-          palabra: 'before',
         },
         {
-          personaje: 'Tom',
-          textoIng: 'No! really?',
+          personaje: 'Martin',
+          textoIng: 'I failed the test!',
           textoEsp: '',
           audio: require('@/assets/audios/a2/3.mp3'),
         },
         {
-          personaje: 'Maria',
-          textoIng:
-            'Yes. *** , it got really cold and I didn’t have clothes to change there.',
+          personaje: 'Jimmy',
+          textoIng: 'But you studied a lot! How is it possible?',
           textoEsp: '',
           audio: require('@/assets/audios/a2/4.wav'),
-          palabra: 'After that',
         },
         {
-          personaje: 'Tom',
-          textoIng: 'No way! What did you do then?',
+          personaje: 'Martin',
+          textoIng:
+            'Man, if I *** learned the irregular verbs, I would have completed the sentences correctly!',
           textoEsp: '',
           audio: require('@/assets/audios/a2/5.mp3'),
+          palabra: 'had',
         },
         {
-          personaje: 'Maria',
+          personaje: 'Jimmy',
           textoIng:
-            'First, I drank a cup of hot tea, then I bought some medicine, and *** I went to bed.',
+            'If you had *** to my house, we would have studied them together.  ',
           textoEsp: '',
           audio: require('@/assets/audios/a2/6.wav'),
-          palabra: 'finally',
-        },
-        {
-          personaje: 'Tom',
-          textoIng: 'So, did you get sick?',
-          textoEsp: '',
-          audio: require('@/assets/audios/a2/7.mp3'),
-        },
-        {
-          personaje: 'Maria',
-          textoIng: 'Not really, but I don’t feel that good.',
-          textoEsp: '',
-          audio: require('@/assets/audios/a2/8.wav'),
+          palabra: 'come',
         },
       ],
     },

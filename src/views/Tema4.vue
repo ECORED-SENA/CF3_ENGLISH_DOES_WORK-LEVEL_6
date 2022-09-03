@@ -348,7 +348,7 @@ export default {
           textoIng:
             'Good question! If I were that popular, I would record videos for my YouTube channel and also wear the trendiest outfits like *** clothes and stuff like that. ',
           textoEsp: '',
-          audio: require('@/assets/audios/a4/2.mp3'),
+          audio: require('@/assets/audios/a4/2.wav'),
           palabra: 'designer label ',
         },
         {
@@ -361,7 +361,7 @@ export default {
           personaje: 'Maria',
           textoIng: 'For sure! What about you?',
           textoEsp: '',
-          audio: require('@/assets/audios/a4/4.mp3'),
+          audio: require('@/assets/audios/a4/4.wav'),
         },
         {
           personaje: 'Ana',
@@ -376,7 +376,7 @@ export default {
           textoIng:
             'That’s good! Because famous influencers are doing very well with fashion content creation these days!',
           textoEsp: '',
-          audio: require('@/assets/audios/a4/6.mp3'),
+          audio: require('@/assets/audios/a4/6.wav'),
           palabra: 'fished',
         },
       ],

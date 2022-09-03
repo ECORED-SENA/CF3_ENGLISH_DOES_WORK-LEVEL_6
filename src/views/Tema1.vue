@@ -13,7 +13,7 @@
           span.r-3.fw-normal.fst-italic The second conditional #[b is used to contemplate hypothetical scenarios], in which a non-real situation, shown by using the past tense, is considered as the condition, and a result to that hypothetical situation is shown by using the auxiliary verb would.
           br
           br
-          span.text-gray El segundo condicional es utilizado para contemplar escenarios hipotéticos, en los que se considera como condición una situación no real, mostrada mediante el uso del tiempo pasado, y se muestra un resultado a esa situación hipotética mediante el uso del verbo auxiliar would. 
+          span.text-gray El segundo condicional es utilizado para contemplar escenarios hipotéticos, en los que se considera como condición una situación no real, mostrada mediante el uso del tiempo pasado, y se muestra un resultado a esa situación hipotética mediante el uso del verbo auxiliar #[i would.] 
     #t_1_1.titulo-segundo.color-primario(data-aos='fade-right')
       h2 1.1  #[i Past perfect] / (Pasado perfecto)
     .row.justify-content-center.mb-5
@@ -249,7 +249,7 @@ export default {
           personaje: 'Dave',
           textoIng: ' I think I *** fly around Europe.',
           textoEsp: '',
-          audio: require('@/assets/audios/a1/2.wav'),
+          audio: require('@/assets/audios/a1/2.mp3'),
         },
         {
           personaje: 'Carlo',
@@ -261,7 +261,7 @@ export default {
           personaje: 'Dave',
           textoIng: 'So, what would you do if you had a million dollars?',
           textoEsp: '',
-          audio: require('@/assets/audios/a1/4.wav'),
+          audio: require('@/assets/audios/a1/4.mp3'),
         },
         {
           personaje: 'Carlo',
@@ -275,7 +275,7 @@ export default {
           personaje: 'Dave',
           textoIng: 'You are such a businessman!',
           textoEsp: '',
-          audio: require('@/assets/audios/a1/6.wav'),
+          audio: require('@/assets/audios/a1/6.mp3'),
         },
       ],
     },

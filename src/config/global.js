@@ -34,49 +34,59 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          '<em>Present perfect vs past simple</em> (Presente perfecto vs pasado simple)',
+        titulo: '<em>Second conditional</em> / (Segundo condicional)',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo:
+              '<em>Use of was/were with the pronoun “I”</em> / (Uso de <em>was/were</em> con el pronombre <em>“I”</em>)',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: '<em>Use of “would”</em> / (Uso de <em>“would”</em>)',
+            hash: 't_1_2',
+          },
+        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo:
-          '<em>Discourse markers: sequential past time linkers</em> (Marcadores de discurso: conectores secuenciales de tiempo pasado)',
+        titulo: '<em>Third conditional</em> / (Tercer condicional)',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: '<em>Past perfect</em> / (Pasado perfecto)',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: '<em>Use of “would have”</em> / (Uso del “would have”)',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo:
-          '<em>Present perfect continuous</em> (Presente perfecto continuo)',
+        titulo: '<em>Time expressions</em> / (Expresiones de tiempo)',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              '<em>Verbs ending in “-ing”</em> (Verbos con terminación “-ing”)',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo:
-              '<em>Affirmative, negative and interrogative structures</em> (Estructuras afirmativas, negativas e interrogativas) ',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
         titulo:
-          '<em>We have been enjoying our free time a lot</em> (Hemos estado disfrutando mucho de nuestro tiempo libre)',
+          'If we hadn&#x27t been busy, we would have gone to the fashion show (Si no hubiéramos estado ocupados, habríamos ido al desfile de moda) ',
         desarrolloContenidos: true,
       },
     ],
@@ -122,96 +132,102 @@ export default {
   },
   complementario: [
     {
-      tema:
-        ' <em>Present perfect vs past simple</em> (Presente perfecto vs pasado simple)',
+      tema: '<em>Introduction: Conditionals</em>',
       referencia:
-        'BBC Learning English. (2020). <em>Present perfect and past simple - 6 Minute Grammar [Video].</em> YouTube. ',
+        'Woodward English. (2020). Conditionals - IF clauses in English - Introduction [Video]. YouTube.  ',
+      tipo: 'Video      ',
+      link: 'https://www.youtube.com/watch?v=z_L80p8WbLM',
+    },
+    {
+      tema: '<em> Second conditional</em> / (Segundo condicional).        ',
+      referencia:
+        'BBC Learning English. (2020). The second conditional - 6 Minute Grammar [Video]. YouTube.  ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=jwmKjgwlMk8',
+      link: 'https://www.youtube.com/watch?v=3OuqzHxlrHc',
     },
     {
-      tema:
-        '<em>Present perfect vs past simple</em> (Presente perfecto vs pasado simple)',
+      tema: ' <em>Second conditional</em> / (Segundo condicional).        ',
       referencia:
-        'BC Learning English. (2018). <em>Present Perfect and Past Simple: The Grammar Gameshow Episode 29 [Video].</em> YouTube. ',
+        'BBC Learning English. (2018). Second Conditional: The Grammar Gameshow Episode 20 [Video]. YouTube.  ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=XgLdOI6UsJY',
+      link: 'https://www.youtube.com/watch?v=7_LCu92sk8k',
     },
     {
-      tema:
-        '<em>Present perfect vs past simple</em> (Presente perfecto vs pasado simple)',
+      tema: '<em>Third conditional</em> / (Tercer condicional)        ',
       referencia:
-        'BBC Learning English. (2018). <em>The past simple and past perfect tenses - Learners Questions [Video].</em> YouTube. ',
+        'BBC Learning English. (2019). The 3rd conditional: What is it? How to use it! - English In A Minute [Video]. YouTube.  ',
+      tipo: 'Video      ',
+      link: 'https://www.youtube.com/watch?v=YdCsmuBXahw',
+    },
+    {
+      tema: ' <em>Third conditional</em> / (Tercer condicional)',
+      referencia:
+        'British Council | LearnEnglish Teens. (2017). Grammar Snacks: Third conditional [Video]. YouTube. ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=jwmKjgwlMk8',
-    },
-    {
-      tema:
-        '<em>Present perfect vs past simple</em> (Presente perfecto vs pasado simple)',
-      referencia:
-        'BBC. (s. f.). <em>Unit 26: It must be love. Present perfect and past simple. Learning English.</em> ',
-      tipo: 'Artículo',
-      link:
-        'https://www.bbc.co.uk/learningenglish/course/lower-intermediate/unit-26/session-2',
-    },
-    {
-      tema: '<em>Present perfect continuous</em> (Presente perfecto continuo)',
-      referencia:
-        'Equipo académico. (2021). ¿Se te dificulta el present perfect continuous? Conoce aquí las bases para perfeccionarlo. British Council México. ',
-      tipo: 'Artículo',
-      link: 'https://www.britishcouncil.org.mx/blog/present-perfect-continuous',
+      link: 'https://www.youtube.com/watch?v=uyIoPpVbOhc',
     },
   ],
   glosario: [
     {
-      termino: 'Discourse markers / Marcadores de discurso',
+      termino: 'Conditional clause / Cláusula condicional',
       significado:
-        'palabras que ayudan a organizar un discurso o un texto de forma que tenga una estructura más sencilla de entender.',
+        'oraciones que expresan un resultado, el cual depende de que una condición se cumpla.        ',
     },
     {
-      termino: 'Leisure activities / Actividades de ocio',
-      significado: 'actividades de ocio o que se realizan en el tiempo libre.',
+      termino: 'Modal verb / Verbo modal',
+      significado:
+        'verbo auxiliar que no tiene patrones verbales como la forma infinitiva, el gerundio o los participios, tampoco se conjuga con las personas gramaticales sino que acompaña al verbo principal modificándolo, para expresar ideas como posibilidad, intención o necesidad.',
     },
     {
-      termino: 'Past simple tense / Tiempo pasado simple:',
+      termino: 'Past perfect / Pasado perfecto:',
       significado:
-        'tiempo verbal que hace referencia a acciones que se llevaron a cabo en un momento o tiempo previo al ahora.',
+        'tiempo verbal que se utiliza cuando se está hablando de dos situaciones que ocurrieron en el pasado; generalmente, la acción que ocurrió primero se narra en pasado perfecto y la más reciente se narra en pasado simple.',
     },
     {
-      termino: 'Present perfect tense / Tiempo presente perfecto:',
+      termino: 'Second conditional / Segundo condicional',
       significado:
-        'tiempo verbal que hace referencia a acciones que se llevaron a cabo en algún momento del pasado, pero siguen teniendo relevancia o están conectadas, de alguna forma, con el presente.',
+        'oración condicional que habla de situaciones hipotéticas, irreales o poco probables, en el presente o en el futuro, que ocurrirían si cierta condición se cumpliera.',
     },
     {
-      termino:
-        'Present perfect continuous tense / Tiempo presente perfecto continuo:',
+      termino: 'Third conditional / Tercer condicional:',
       significado:
-        'tiempo verbal que resalta la acción que se ha estado realizando durante un tiempo.',
+        'oración condicional con la que una persona imagina un pasado diferente, que hubiera ocurrido si cierta condición se hubiera cumplido.',
     },
   ],
   referencias: [
     {
       referencia:
-        'British Council. (s. f.). Present perfect. British Council LearnEnglish. ',
+        ' British Council. (s. f.-a). will and would. British Council LearnEnglish. ',
       link:
-        'https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/present-perfect#:~:text=Again%2C%20if%20we%20say%20when,started%20going%20to%20the%20gym',
+        'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/will-and-would',
     },
     {
       referencia:
-        'Cambridge University Press. (s. f.). Discourse markers (so, right, okay). Cambridge Dictionary. ',
+        'British Council. (s. f.-b). will have and would have. British Council LearnEnglish. ',
       link:
-        'https://dictionary.cambridge.org/es-LA/grammar/british-grammar/discourse-markers-so-right-okay',
+        'https://learnenglish.britishcouncil.org/es/grammar/english-grammar-reference/will-have-and-would-have',
     },
     {
       referencia:
-        'Coordinación de Universidad Abierta y Educación a Distancia UNAM. (s. f.). Sequence connectors (and, or, but, so, first, then, later, before, finally, after that). Ambiente Virtual de Idiomas.',
+        'Collins. (s. f.). Definición de subjunctive. Diccionario de inglés.  ',
       link:
-        'https://avi.cuaed.unam.mx/repositorio/moodle/pluginfile.php/3622/mod_resource/content/14/Contenido/index.html',
+        'https://www.collinsdictionary.com/es/diccionario/ingles/subjunctive',
     },
     {
       referencia:
-        'McLellan, C. (2020). El presente perfecto continuo. British Council España. ',
-      link: 'https://www.britishcouncil.es/blog/presente-perfecto-continuo',
+        'Coordinación de Universidad Abierta y Educación a Distancia [CUAED]. (s. f.). Past time expressions (yesterday, last week, last night, two years ago). Ambiente Virtual de Idiomas.  ',
+      link:
+        'https://avi.cuaed.unam.mx/repositorio/moodle/pluginfile.php/1987/mod_resource/content/17/contenido/index.html',
+    },
+    {
+      referencia:
+        ' Equipo académico. (2021). Past perfect: claves para usarlo como nativo. British Council México.',
+      link: 'https://www.britishcouncil.org.mx/blog/past-perfect',
+    },
+    {
+      referencia: 'Traffis, C. (s. f.). Was vs. Were? Grammarly blog. ',
+      link:
+        'https://www.grammarly.com/blog/was-vs-were/?gclid=Cj0KCQjw852XBhC6ARIsAJsFPN22qPdwdPHto28fI3gtSotn1YQSktBmKSiQPEAIHwm9htqwqbKY8Q4aArVsEALw_wcB&gclsrc=aw.ds',
     },
   ],
   creditos: {
@@ -236,9 +252,10 @@ export default {
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
       {
-        nombre: 'Gloria Lida Alzate Suárez',
-        cargo: 'Diseñadora Instruccional',
-        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        nombre: 'Óscar Absalón Guevara',
+        cargo: 'Diseñador Instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios – CIES - Regional Santander',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',

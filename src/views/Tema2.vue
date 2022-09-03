@@ -14,9 +14,9 @@
               span.r-1 is used to talk about situations of the past that did not occur, but we fantasize about what could have happened. 
               | In order to do that, it is necessary to use two elements as in all the conditionals: the condition, in this case we need the past perfect, and to show the result, we use the expression “would have” plus the verb in past participle.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-            //todo! Añadir traduccion 
             p 
-              span.r-5 
+              span.r-5 El tercer condicional se utiliza para hablar de situaciones del pasado que no ocurrieron, pero fantaseamos con lo que podría haber ocurrido. Para ello, es necesario utilizar dos elementos como en todos los condicionales: la condición, en este caso necesitamos el #[i Past Perfect] (pasado perfecto) y, para mostrar el resultado, utilizamos la expresión #[i "would have"] más el verbo en participio pasado.
+
 
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
       .col-lg-5: img(src='@/assets/curso/temas/tema2/1.png')

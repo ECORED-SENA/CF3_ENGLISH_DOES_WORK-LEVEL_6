@@ -13,9 +13,8 @@
           .contenedor-traductor__eng
             p.fst-italic We use the past tenses (we are not only talking about the simple past tense, but as in the case of the third conditional we use another past tense: the past perfect) to talk about things that happened before the present tense; and to better reference the time in which they occurred, certain words or temporary expressions called adverbs of time can be added to the complement of the sentence. The ones most often used in the past are:
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp1}")
-            //todo! Pendiente montar traducción 
             p 
-              span.r-5 
+              span.r-5 Usamos los tiempos pasados (no solo hablamos del tiempo pasado simple, sino, como en el caso del tercer condicional, usamos otro tiempo pasado: el pasado perfecto) para hablar de cosas que ocurrieron antes del tiempo presente; y para referenciar mejor el tiempo en el que ocurrieron, se puede agregar al complemento de la oración ciertas palabras o expresiones temporales llamadas adverbios de tiempo. Los que se usan con más frecuencia en el pasado son:
           a.boton-traduccion(@click='ocultarEsp1 = !ocultarEsp1') Ver traducción
     h3.mb-4
       span.f-3.px-4.fst-italic.fw-bold Last
@@ -82,11 +81,10 @@
             .col-lg-9
               .contenedor-traductor
                 .contenedor-traductor__eng
-                  p.fst-italic In Spanish, we say “#[b el] verano pasado”, “#[b la] semana pasada”, “#[b el] año pasado”; but in English we do not use the definite article “the”, we say “last summer”, “last week”, “last year”, we do NOT say “the last summer”, “the last week”, “the last year”.
+                  p.fst-italic In Spanish, we say “#[b el] verano pasado”, “#[b la] semana pasada”, “#[b el] año pasado”; but in English we do not use the definite article “u the”, we say “last summer”, “last week”, “last year”, we do NOT say “#[del the] last summer”, “#[del the] last week”, “#[del the] last year”.
                 .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp1}")
-                  //todo! Pendiente montar traducción 
                   p 
-                    span.r-5 
+                    span.r-5 En español, decimos “el verano pasado”, “la semana pasada”, “el año pasado”; pero en inglés no usamos el artículo definido “the”, se dice “last summer”, “last week”, “last year”, NO se dice “#[del the] last summer”, “#[del the] last week”, “#[del the] last year”.
                 a.boton-traduccion(@click='ocultarEsp1 = !ocultarEsp1') Ver traducción
     .tarjeta.rounded-0.margin-n.p-5.mb-5(style='background-color: #F0F4FF')
       h3.mb-4
@@ -263,21 +261,21 @@ export default {
           personaje: 'David',
           textoIng: 'What would you have done if you had won the lotto ***?',
           textoEsp: '',
-          audio: require('@/assets/audios/a3/1.mp3'),
+          audio: require('@/assets/audios/a3/1.wav'),
           palabra: 'yesterday',
         },
         {
           personaje: 'Clara',
           textoIng: 'Well, I would have thrown a huge party first!',
           textoEsp: '',
-          audio: require('@/assets/audios/a3/2.mp3'),
+          audio: require('@/assets/audios/a3/2.wav'),
         },
         {
           personaje: 'David',
           textoIng:
             'Sure! Like the one you threw *** year for your graduation! ',
           textoEsp: '',
-          audio: require('@/assets/audios/a3/3.mp3'),
+          audio: require('@/assets/audios/a3/3.wav'),
           palabra: 'last',
         },
         {
@@ -285,20 +283,20 @@ export default {
           textoIng:
             'That’s right! I would have enjoyed this one more for sure!',
           textoEsp: '',
-          audio: require('@/assets/audios/a3/4.mp3'),
+          audio: require('@/assets/audios/a3/4.wav'),
         },
         {
           personaje: 'David',
           textoIng: 'It’s a pity you didn’t win.',
           textoEsp: '',
-          audio: require('@/assets/audios/a3/5.mp3'),
+          audio: require('@/assets/audios/a3/5.wav'),
         },
         {
           personaje: 'Clara',
           textoIng:
             'I know, I bought that ticket a week *** and I was sure I was going to win.',
           textoEsp: '',
-          audio: require('@/assets/audios/a3/6.mp3'),
+          audio: require('@/assets/audios/a3/6.wav'),
           palabra: 'ago',
         },
       ],

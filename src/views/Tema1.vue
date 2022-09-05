@@ -46,21 +46,21 @@
           img.mb-2(src='@/assets/curso/temas/3.svg', alt='')
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto="Sara was hungry."
-            :audio="require('@/assets/audios/tema1/1.wav')"
+            :audio="require('@/assets/audios/tema1/1.mp3')"
             )
           p.ms-3 Sara tenía hambre.
         .col-lg-3
           img.mb-2(src='@/assets/curso/temas/4.svg', alt='')
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto="I was rich."
-            :audio="require('@/assets/audios/tema1/1.wav')"
+            :audio="require('@/assets/audios/tema1/2.mp3')"
             )
           p.ms-3 Yo era rico.
         .col-lg-3
           img.mb-2(src='@/assets/curso/temas/5.svg', alt='')
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto="He was fat."
-            :audio="require('@/assets/audios/tema1/1.wav')"
+            :audio="require('@/assets/audios/tema1/3.mp3')"
             )
           p.ms-3 Él era gordo.
         
@@ -70,21 +70,21 @@
           img.mb-2(src='@/assets/curso/temas/6.svg', alt='')
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto="If Sara were hungry, she would cook some food."
-            :audio="require('@/assets/audios/tema1/1.wav')"
+            :audio="require('@/assets/audios/tema1/4.mp3')"
             )
           p.ms-3 Si Sara tuviera hambre, ella cocinaría comida.
         .col-lg-3
           img.mb-2(src='@/assets/curso/temas/7.svg', alt='')
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto="If I were rich, I would buy a Ferrari. "
-            :audio="require('@/assets/audios/tema1/1.wav')"
+            :audio="require('@/assets/audios/tema1/5.mp3')"
             )
           p.ms-3 Si yo fuera rico, yo compraría un Ferrari.
         .col-lg-3
           img.mb-2(src='@/assets/curso/temas/8.svg', alt='')
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto="If he were fat, he would do exercise."
-            :audio="require('@/assets/audios/tema1/1.wav')"
+            :audio="require('@/assets/audios/tema1/6.mp3')"
             )
           p.ms-3 Si él fuera gordo, él haría ejercicio.
     Separador 
@@ -117,7 +117,7 @@
                 .col-lg-6
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="<span class='f-1'>Sam </span><span class='f-2'>would </span><span class='f-3'>travel to </span><span class='f-4 text-white'>China. </span>"
-                    :audio="require('@/assets/audios/tema1/1.wav')"
+                    :audio="require('@/assets/audios/tema1/7.mp3')"
                     )
           div(titulo="<em>Negative structure</em> / Estructura negativa").p-5
             .tarjeta.bg-white.p-4
@@ -128,7 +128,7 @@
                 .col-lg-6
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="<span class='f-1'>Sam </span><span class='f-2'>would not   </span><span class='f-3'>travel to  </span><span class='f-4 text-white'>China. </span>"
-                    :audio="require('@/assets/audios/tema1/1.wav')"
+                    :audio="require('@/assets/audios/tema1/8.mp3')"
                     )
                   p.ms-3 Sam no viajaría a China.
           div(titulo="<em>Interrogative structures</em> / Estructuras interrogativas").p-5
@@ -140,7 +140,7 @@
                 .col-lg-6
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="<span class='f-2'>would </span><span class='f-1'>Sam </span><span class='f-3'>travel to </span><span class='f-4 text-white'>China? </span>"
-                    :audio="require('@/assets/audios/tema1/1.wav')"
+                    :audio="require('@/assets/audios/tema1/9.mp3')"
                     )
                   p.ms-3 ¿Viajaría Sam a China?
           div(titulo="<em>Informative questions</em> / Preguntas informativas").p-5
@@ -152,7 +152,7 @@
                 .col-lg-6
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="<span class='f-5'>When </span><span class='f-2'>would</span><span class='f-1'>Sam </span><span class='f-3 '>travel to </span><span class='f-4 text-white'>China? </span>"
-                    :audio="require('@/assets/audios/tema1/1.wav')"
+                    :audio="require('@/assets/audios/tema1/10.mp3')"
                     )
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -188,7 +188,7 @@
         .tarjeta.color-acento-contenido.p-4.hbg--4.h-100
           img.mb-3(src='@/assets/curso/temas/21.png', alt='')
           .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/11.mp3')").m-auto.mb-2
                 p.text-center
                   span.r-1.fst-italic If I had a million dollars, I would buy a big house.
 
@@ -198,7 +198,7 @@
         .tarjeta.color-acento-contenido.p-4.hbg--4.h-100
           img.mb-3(src='@/assets/curso/temas/22.png', alt='')
           .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/12.mp3')").m-auto.mb-2
                 p.text-center
                   span.r-1.fst-italic I would become a basketball player if I were taller.
                   br 
@@ -207,7 +207,7 @@
         .tarjeta.color-acento-contenido.p-4.hbg--4.h-100
           img.mb-3(src='@/assets/curso/temas/23.png', alt='')
           .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/13.mp3')").m-auto.mb-2
                 p.text-center
                   span.r-1.fst-italic If I did more exercise, I would be in shape.
                   br 

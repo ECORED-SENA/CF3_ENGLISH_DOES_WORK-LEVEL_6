@@ -39,7 +39,7 @@
           .col-lg-5
             TarjetaAudio.color-primario.bg-white.mb-3(
               texto="My 'sister <span class='f-2'>had</span> <span class='r-3'>been</span> to Miami for her birthday."
-              :audio="require('@/assets/audios/tema2/3.mp3')"
+              :audio="require('@/assets/audios/tema2/1.mp3')"
               )
             
           .col-lg-5
@@ -50,7 +50,7 @@
         img.mb-3(src='@/assets/curso/temas/tema2/4.svg', alt='')
         TarjetaAudio.color-primario.bg-white.mb-3(
           texto="Event 1: I finished my homework."
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema2/2.mp3')"
           )
         p.ms-3 Evento 1: Terminé mi tarea.
       .col-lg-3.col-8.mb-lg-0.mb-3
@@ -65,7 +65,7 @@
           img.mb-3.m-auto.d-block(src='@/assets/curso/temas/tema2/6.svg', alt='' style='width: 348px')
           TarjetaAudio.color-primario.bg-white.mb-3(
           texto=" I had finished my homework when my best friend called me."
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema2/4.mp3')"
           )
           p.ms-3 Yo había terminado mi tarea cuando mi mejor amigo me llamó.  
     p.mb-5(data-aos='fade-right') 
@@ -80,7 +80,7 @@
         .tarjeta.color-acento-contenido.p-4.hbg--4.h-100
           img.mb-3(src='@/assets/curso/temas/tema2/7.png', alt='')
           .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-            Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+            Audio.color-primario.d-block(:audio="require('@/assets/audios/tema2/5.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic Bruno 
                 span.r-4 had done 
@@ -92,7 +92,7 @@
         .tarjeta.color-acento-contenido.p-4.hbg--4.h-100
           img.mb-3(src='@/assets/curso/temas/tema2/8.png', alt='')
           .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-            Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+            Audio.color-primario.d-block(:audio="require('@/assets/audios/tema2/6.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic They 
                 span.r-4 hadn’t eaten 
@@ -103,7 +103,7 @@
         .tarjeta.color-acento-contenido.p-4.hbg--4.h-100
           img.mb-3(src='@/assets/curso/temas/tema2/9.png', alt='')
           .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-            Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+            Audio.color-primario.d-block(:audio="require('@/assets/audios/tema2/7.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic I 
                 span.r-4 had called 
@@ -125,7 +125,7 @@
       .col-lg-4
         TarjetaAudio.color-primario.bg-white.mb-3(
           texto=" I would have <span class='f-2'>eaten</span> <span class='r-3'> if</span> I hadn’t eaten before.."
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema2/8.mp3')"
           )
     p.text-center.mb-5 
       span.r-3.fw-normal Now, we will check some examples: 
@@ -135,7 +135,7 @@
         .tarjeta.color-acento-contenido.p-4.hbg--4.h-100
           img.mb-3(src='@/assets/curso/temas/tema2/11.png', alt='')
           .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-            Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+            Audio.color-primario.d-block(:audio="require('@/assets/audios/tema2/9.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic She 
                 span.r-4 would have earned
@@ -146,7 +146,7 @@
         .tarjeta.color-acento-contenido.p-4.hbg--4.h-100
           img.mb-3(src='@/assets/curso/temas/tema2/12.png', alt='')
           .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-            Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+            Audio.color-primario.d-block(:audio="require('@/assets/audios/tema2/10.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic I 
                 span.r-4 would have gone
@@ -157,7 +157,7 @@
         .tarjeta.color-acento-contenido.p-4.hbg--4.h-100
           img.mb-3(src='@/assets/curso/temas/tema2/13.png', alt='')
           .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-            Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+            Audio.color-primario.d-block(:audio="require('@/assets/audios/tema2/11.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic Daniel 
                 span.r-4 ould have traveled 
@@ -174,11 +174,11 @@
         .col-lg-4
           TarjetaAudio.color-primario.bg-white.mb-5(
           texto="<span class='r-3'>If</span> you had called before, <span class='r-4'>I would have made some tea.</span>"
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema2/12.mp3')"
           )
           TarjetaAudio.color-primario.bg-white(
           texto="<span class='r-4'>I would have made some tea</span> <span class='r-3'>if</span> you had called before."
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema2/13.mp3')"
           )
     .row.justify-content-center.mb-5
       .col-lg-7
@@ -194,7 +194,7 @@
         SlyderF.mb-5(columnas="col-lg-12 ")
           .tarjeta.bg-background.p-5.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/15.jpg')})`}" style='height: 440px')
             .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-              Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')" ).m-auto.mb-2
+              Audio.color-primario.d-block(:audio="require('@/assets/audios/tema2/14.mp3')" ).m-auto.mb-2
               p.text-center
                 span.r-1.fst-italic If I 
                   span.r-4 had studied 
@@ -205,7 +205,7 @@
                 | Si hubiese estudiado más, habría pasado el examen. 
           .tarjeta.bg-background.p-5.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/16.jpg')})`}" style='height: 440px')
             .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-              Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')" ).m-auto.mb-2
+              Audio.color-primario.d-block(:audio="require('@/assets/audios/tema2/15.mp3')" ).m-auto.mb-2
               p.text-center
                 span.r-1.fst-italic She 
                   span.r-4 would have paid 
@@ -215,7 +215,7 @@
                 | Ella habría pagado menos si lo hubiese comprado en ese momento.
           .tarjeta.bg-background.p-5.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/17.jpg')})`}" style='height: 440px')
             .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-              Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')" ).m-auto.mb-2
+              Audio.color-primario.d-block(:audio="require('@/assets/audios/tema2/16.mp3')" ).m-auto.mb-2
               p.text-center
                 span.r-1.fst-italic If you 
                   span.r-4 had gotten 

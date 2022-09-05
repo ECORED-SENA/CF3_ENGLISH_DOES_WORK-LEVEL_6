@@ -30,7 +30,7 @@
                   br
                   span.text-gray Videos en línea
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/2.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic I would watch online videos if I had a computer.
                     br
@@ -44,7 +44,7 @@
                   br
                   span.text-gray Redes sociales
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/4.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If I had opened my social media, I would have become famous by now.
                     br
@@ -58,7 +58,7 @@
                   br
                   span.text-gray  Chatear, charlar (en línea)
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/6.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If I chatted more often, I would have more friends.
                     br
@@ -72,7 +72,7 @@
                   br
                   span.text-gray Navegar en Internet
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/8.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If I hadn’t surfed the Internet yesterday, I would have finished my duties.
                     br
@@ -86,7 +86,7 @@
                   br
                   span.text-gray Teléfono inteligente
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/10.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If I had a good smartphone, I would become an influencer.
                     br
@@ -100,7 +100,7 @@
                   br
                   span.text-gray  Noticias en línea
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/12.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic  I would read the online news if they weren’t that sensationalist.
                     br
@@ -114,7 +114,7 @@
                   br
                   span.text-gray Informe meteorológico, pronóstico del tiempo
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/14.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If I had checked the weather report, I wouldn’t have gotten wet this morning.
                     br
@@ -128,7 +128,7 @@
                   br
                   span.text-gray Tabloides, periódicos sensacionalistas, revistas de chismes
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/16.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If there weren’t any tabloids, famous people would be happier.
                     br
@@ -142,7 +142,7 @@
                   br
                   span.text-gray Noticias de última hora
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/18.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If we had seen the breaking news, we would have known about the tornado before.
                     br
@@ -156,7 +156,7 @@
                   br
                   span.text-gray Publicidad, anuncios, propaganda
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/20.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If I paid more advertising for my webpage, I would have more clients.
                     br
@@ -171,7 +171,7 @@
                   br
                   span.text-gray De moda, vanguardista 
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/22.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If I had more money, I would buy trendy clothes.
                     br
@@ -185,7 +185,7 @@
                   br
                   span.text-gray Marca de diseñador
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/24.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If she had been a model, she would have worn designer label pieces of clothes.
                     br
@@ -199,7 +199,7 @@
                   br
                   span.text-gray Pasarela
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/26.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If we had arrived earlier, we would have been able to see the models walk down the catwalk.
                     br
@@ -213,7 +213,7 @@
                   br
                   span.text-gray Vestuario, guardarropa
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/28.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If I lived in a country with seasons, I would invest in a fashionable winter wardrobe.
                     br
@@ -227,7 +227,7 @@
                   br
                   span.text-gray Mercado callejero, mercadillo
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/30.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If they had gone to the street market, they would have gotten better discounts.
                     br
@@ -241,7 +241,7 @@
                   br
                   span.text-gray Mercado campesino, mercado de productores (al aire libre)
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/32.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If she wanted to take care of her health, she would buy more organic vegetables at the farmers market.
                     br
@@ -255,7 +255,7 @@
                   br
                   span.text-gray Estilo de vida
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/34.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If he had had a healthier lifestyle, he would not have gotten sick.
                     br
@@ -269,7 +269,7 @@
                   br
                   span.text-gray Dieta equilibrada, alimentación balanceada
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/36.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If you ate a balanced diet, you would be slimmer.
                     br
@@ -283,7 +283,7 @@
                   br
                   span.text-gray Bocadillo, refrigerio, merienda
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/38.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If we hadn’t prepared more snacks, the children would have been hungry.
                     br
@@ -297,7 +297,7 @@
                   br
                   span.text-gray Alimentos procesados
                 .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
-                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                  Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/40.mp3')").m-auto.mb-2
                   p.text-center
                     span.r-1.fst-italic If processed foods were healthier, I would eat them more often.
                     br

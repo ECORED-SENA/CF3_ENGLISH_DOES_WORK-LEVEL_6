@@ -27,42 +27,42 @@
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/2.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="Night"
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema3/1.mp3')"
           )
       .col-lg-2 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/3.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="Weekend"
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema3/2.mp3')"
           )
       .col-lg-2 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/4.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="Year"
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema3/3.mp3')"
           )
       .col-lg-2 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/5.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="Wednesday"
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema3/4.mp3')"
           )
       .col-lg-2 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/6.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="Christmas"
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema3/5.mp3')"
           )
       .col-lg-2 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/7.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="Month"
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema3/6.mp3')"
           )
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
@@ -70,7 +70,7 @@
         img.mb-3(src='@/assets/curso/temas/tema3/8.png', alt='')
         TarjetaAudio.color-primario.bg-white.mb-3(
           texto="I wouldn’t have been tired for the test if I had gone to bed earlier <span class='r-3'>last</span> night. "
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema3/7.mp3')"
           )
         p.ms-3 Yo no habría estado cansado para el examen si me hubiera ido a la cama más temprano #[b anoche.]
       .col-lg-7
@@ -98,42 +98,42 @@
             img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/10.svg', alt='' style='width: 88px')
             TarjetaAudio.color-primario.bg-white(
             texto="5 minutes"
-            :audio="require('@/assets/audios/tema2/3.mp3')"
+            :audio="require('@/assets/audios/tema3/8.mp3')"
             )
         .col-lg-2 
           .tarjeta.hbg--4.p-2(style='background-color: #FFDFE0')
             img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/11.svg', alt='' style='width: 88px')
             TarjetaAudio.color-primario.bg-white(
             texto="an hour"
-            :audio="require('@/assets/audios/tema2/3.mp3')"
+            :audio="require('@/assets/audios/tema3/9.mp3')"
             )
         .col-lg-2 
           .tarjeta.hbg--4.p-2(style='background-color: #FFDFE0')
             img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/12.svg', alt='' style='width: 88px')
             TarjetaAudio.color-primario.bg-white(
             texto="a week"
-            :audio="require('@/assets/audios/tema2/3.mp3')"
+            :audio="require('@/assets/audios/tema3/10.mp3')"
             )
         .col-lg-2 
           .tarjeta.hbg--4.p-2(style='background-color: #FFDFE0')
             img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/13.svg', alt='' style='width: 88px')
             TarjetaAudio.color-primario.bg-white(
             texto="a month"
-            :audio="require('@/assets/audios/tema2/3.mp3')"
+            :audio="require('@/assets/audios/tema3/11.mp3')"
             )
         .col-lg-2 
           .tarjeta.hbg--4.p-2(style='background-color: #FFDFE0')
             img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/14.svg', alt='' style='width: 88px')
             TarjetaAudio.color-primario.bg-white(
             texto="a year"
-            :audio="require('@/assets/audios/tema2/3.mp3')"
+            :audio="require('@/assets/audios/tema3/12.mp3')"
             )
         .col-lg-2 
           .tarjeta.hbg--4.p-2(style='background-color: #FFDFE0')
             img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/15.svg', alt='' style='width: 88px')
             TarjetaAudio.color-primario.bg-white(
             texto="a long time"
-            :audio="require('@/assets/audios/tema2/3.mp3')"
+            :audio="require('@/assets/audios/tema3/13.mp3')"
             )
       .row.justify-content-center.mb-5
         .col-lg-5.mb-lg-0.mb-3
@@ -142,7 +142,7 @@
           p.fst-italic.fw-bold For example: 
           TarjetaAudio.color-primario.bg-white(
             texto="If we hadn’t gone to that restaurant <span class='r-4'>two days ago</span>, we wouldn’t have had that stomach ache."
-            :audio="require('@/assets/audios/tema2/3.mp3')"
+            :audio="require('@/assets/audios/tema3/14.mp3')"
             )
           p.ms-3 Si no hubiéramos ido a ese restaurante #[b hace dos días], no habríamos tenido ese dolor de estómago.
     h3.mb-4
@@ -157,42 +157,42 @@
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/17.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="Yesterday"
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema3/15.mp3')"
           )
       .col-lg-2 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/18.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="Morning"
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema3/16.mp3')"
           )
       .col-lg-2 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/19.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="At noon"
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema3/17.mp3')"
           )
       .col-lg-2 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/20.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="Afternoon"
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema3/18.mp3')"
           )
       .col-lg-2 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/21.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="Evening"
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema3/19.mp3')"
           )
       .col-lg-2 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/22.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="The day before yesterday"
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema3/20.mp3')"
           )
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
@@ -200,7 +200,7 @@
         img.mb-3(src='@/assets/curso/temas/tema3/23.png', alt='')
         TarjetaAudio.color-primario.bg-white.mb-3(
           texto="f we had taken a taxi <span class='r-4'>yesterday morning</span>, we wouldn’t have missed the plane."
-          :audio="require('@/assets/audios/tema2/3.mp3')"
+          :audio="require('@/assets/audios/tema3/21.mp3')"
           )
         p.ms-3 Si hubiéramos tomado un taxi #[b ayer por la mañana], no habríamos perdido el avión.
       .col-lg-7

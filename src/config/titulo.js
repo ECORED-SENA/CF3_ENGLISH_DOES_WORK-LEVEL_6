@@ -1,1 +1,1 @@
-module.exports = 'Life is good and I have been enjoying it'
+module.exports = ' If I won the lottery, I would travel all over the world.'

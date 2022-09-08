@@ -5,17 +5,17 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 #[i Second conditional] / (Segundo condicional)
+      h1 #[i Second conditional] / Segundo condicional
     .row.justify-content-center.mb-5
       .col-lg-5: img(src='@/assets/curso/temas/1.jpg')
       .col-lg-7.mb-lg-0.mb-3
         p
-          span.r-3.fw-normal.fst-italic The second conditional #[b is used to contemplate hypothetical scenarios], in which a non-real situation, shown by using the past tense, is considered as the condition, and a result to that hypothetical situation is shown by using the auxiliary verb would.
+          span.r-3.fw-normal.fst-italic The second conditional #[b is used to contemplate hypothetical scenarios], in which a non-real situation, shown by using the #[b past tense], is considered as the condition, and a result to that hypothetical situation is shown by using the auxiliary verb #[b would.]
           br
           br
-          span.text-gray El segundo condicional es utilizado para contemplar escenarios hipotéticos, en los que se considera como condición una situación no real, mostrada mediante el uso del tiempo pasado, y se muestra un resultado a esa situación hipotética mediante el uso del verbo auxiliar #[i would.] 
+          span.text-gray El segundo condicional #[b es utilizado para contemplar escenarios hipotéticos], en los que se considera como condición una situación no real, mostrada mediante el uso del #[b tiempo pasado], y se muestra un resultado a esa situación hipotética mediante el uso del verbo auxiliar #[i #[b would].] 
     #t_1_1.titulo-segundo.color-primario(data-aos='fade-right')
-      h2 1.1  #[i Past perfect] / (Pasado perfecto)
+      h2 1.1  <em>Use of was/were with the pronoun “I”</em> / Uso de <em>was/were</em> con el pronombre <em>“I”</em>
     .row.justify-content-center.mb-5
       .col-lg-9
         p
@@ -53,14 +53,14 @@
           img.mb-2(src='@/assets/curso/temas/4.svg', alt='')
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto="I was rich."
-            :audio="require('@/assets/audios/tema1/2.mp3')"
+            :audio="require('@/assets/audios/tema1/3.mp3')"
             )
           p.ms-3 Yo era rico.
         .col-lg-3
           img.mb-2(src='@/assets/curso/temas/5.svg', alt='')
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto="He was fat."
-            :audio="require('@/assets/audios/tema1/3.mp3')"
+            :audio="require('@/assets/audios/tema1/5.mp3')"
             )
           p.ms-3 Él era gordo.
         
@@ -70,14 +70,14 @@
           img.mb-2(src='@/assets/curso/temas/6.svg', alt='')
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto="If Sara were hungry, she would cook some food."
-            :audio="require('@/assets/audios/tema1/4.mp3')"
+            :audio="require('@/assets/audios/tema1/2.mp3')"
             )
           p.ms-3 Si Sara tuviera hambre, ella cocinaría comida.
         .col-lg-3
           img.mb-2(src='@/assets/curso/temas/7.svg', alt='')
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto="If I were rich, I would buy a Ferrari. "
-            :audio="require('@/assets/audios/tema1/5.mp3')"
+            :audio="require('@/assets/audios/tema1/4.mp3')"
             )
           p.ms-3 Si yo fuera rico, yo compraría un Ferrari.
         .col-lg-3
@@ -89,7 +89,7 @@
           p.ms-3 Si él fuera gordo, él haría ejercicio.
     Separador 
     #t_1_2.titulo-segundo.color-primario(data-aos='fade-right')
-      h2 1.2  #[i Use of “would”] / (Uso de “would”)
+      h2 1.2  #[i Use of “would”] / Uso de “would”
     .row.justify-content-center.mb-5
       .col-lg-2
         img(src='@/assets/curso/temas/9.svg', alt='')  
@@ -99,8 +99,8 @@
             p.fst-italic The use of “would” is really important in English because it is necessary when talking about hypothetical situations. Would is an auxiliary verb that modifies the verb, so you don’t have to conjugate the verb. Let’s see how to use it in different grammatical structures:
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
             p 
-              span.r-5 
-              //todo! AGREGAR TRADUCCION 
+              span.r-5 El uso de #[i would] es realmente importante en inglés, porque es necesario cuando se habla de situaciones hipotéticas. #[i Would] es un verbo auxiliar que modifica al verbo, por lo que no es necesario conjugarlo. Veamos cómo usarlo en diferentes estructuras gramaticales:
+              
 
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
     .row.justify-content-center.mb-5
@@ -127,7 +127,7 @@
                 .col-lg-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.svg', alt='')
                 .col-lg-6
                   TarjetaAudio.color-primario.bg-white.mb-3(
-                    texto="<span class='f-1'>Sam </span><span class='f-2'>would not   </span><span class='f-3'>travel to  </span><span class='f-4 text-white'>China. </span>"
+                    texto="<span class='f-1'>Sam </span><span class='f-2'>wouldn't </span><span class='f-3'>travel to  </span><span class='f-4 text-white'>China. </span>"
                     :audio="require('@/assets/audios/tema1/8.mp3')"
                     )
                   p.ms-3 Sam no viajaría a China.
@@ -139,7 +139,7 @@
                 .col-lg-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/16.svg', alt='')
                 .col-lg-6
                   TarjetaAudio.color-primario.bg-white.mb-3(
-                    texto="<span class='f-2'>would </span><span class='f-1'>Sam </span><span class='f-3'>travel to </span><span class='f-4 text-white'>China? </span>"
+                    texto="<span class='f-2'>Would </span><span class='f-1'>Sam </span><span class='f-3'>travel to </span><span class='f-4 text-white'>China? </span>"
                     :audio="require('@/assets/audios/tema1/9.mp3')"
                     )
                   p.ms-3 ¿Viajaría Sam a China?
@@ -148,10 +148,10 @@
               p.text-center
               img.mb-4(src='@/assets/curso/temas/17.svg', alt='')
               .row.justify-content-center.mb-3
-                .col-lg-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/18.svg', alt='')
+                .col-lg-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/12.svg', alt='')
                 .col-lg-6
                   TarjetaAudio.color-primario.bg-white.mb-3(
-                    texto="<span class='f-5'>When </span><span class='f-2'>would</span><span class='f-1'>Sam </span><span class='f-3 '>travel to </span><span class='f-4 text-white'>China? </span>"
+                    texto="<span class='f-5'>When </span><span class='f-2'>would </span><span class='f-1'>Sam </span><span class='f-3 '>travel to </span><span class='f-4 text-white'>China? </span>"
                     :audio="require('@/assets/audios/tema1/10.mp3')"
                     )
     .row.justify-content-center.mb-5
@@ -163,8 +163,11 @@
               | Next, we will see the second conditional structure:
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
             p 
-              span.r-5 
-              //todo! AGREGAR TRADUCCION 
+              span.r-5 Las estructuras no difieren de la mayoría de los tiempos gramaticales basados en verbos auxiliares. En las oraciones afirmativas, "would" se posiciona antes del verbo y este último siempre está en la forma base. Para la forma negativa, se coloca un "not" entre "would" y el verbo; la contracción de "would not" es "wouldn't", en caso de que se quieran las frases más cortas. En formas interrogativas, solo se posiciona “would” al principio.
+                br
+                br
+                |A continuación, veremos la estructura del segundo condicional:
+
 
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
 
@@ -174,7 +177,7 @@
       .col-lg-7
         .titulo-sexto.color-primario(data-aos='fade-right')
           h5 Figura 1
-          span #[i Second Conditional Structures]  / (Estructuras del segundo condicional)
+          span #[i Second Conditional Structures]  / Estructuras del segundo condicional
         img(src='@/assets/curso/temas/20.svg', alt='')
     p 
       span.fst-italic.fw-normal.r-3 The second conditional refers to speculative situations. They are not directly connected to reality; they are just a supposition of what the person would do or what would happen under those situations. 
@@ -243,13 +246,14 @@ export default {
           textoIng: 'Hey Dave! Where would you *** if you had an airplane?',
           textoEsp: 'Pendiente traduccion',
           audio: require('@/assets/audios/a1/1.wav'),
-          palabra: 'have you been',
+          palabra: 'travel',
         },
         {
           personaje: 'Dave',
           textoIng: ' I think I *** fly around Europe.',
           textoEsp: '',
           audio: require('@/assets/audios/a1/2.mp3'),
+          palabra: 'would',
         },
         {
           personaje: 'Carlo',
@@ -266,10 +270,10 @@ export default {
         {
           personaje: 'Carlo',
           textoIng:
-            'Well, if I *** a millionaire, I *** pay my debts and then I would *** a few houses to rent.',
+            'Well, if I *** a millionaire, I would pay my debts and then I would buy a few houses to rent.',
           textoEsp: '',
           audio: require('@/assets/audios/a1/5.wav'),
-          palabra: 'I went',
+          palabra: 'became',
         },
         {
           personaje: 'Dave',

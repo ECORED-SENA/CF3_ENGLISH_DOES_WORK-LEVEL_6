@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 <em>Third conditional </em> / (Tercer condicional)     
+      h1 <em>Third conditional </em> / Tercer condicional     
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         .contenedor-traductor
@@ -15,11 +15,15 @@
               | In order to do that, it is necessary to use two elements as in all the conditionals: the condition, in this case we need the past perfect, and to show the result, we use the expression “would have” plus the verb in past participle.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
             p 
-              span.r-5 El tercer condicional se utiliza para hablar de situaciones del pasado que no ocurrieron, pero fantaseamos con lo que podría haber ocurrido. Para ello, es necesario utilizar dos elementos como en todos los condicionales: la condición, en este caso necesitamos el #[i Past Perfect] (pasado perfecto) y, para mostrar el resultado, utilizamos la expresión #[i "would have"] más el verbo en participio pasado.
+              span.r-5 El tercer condicional 
+                span.r-1 se utiliza para hablar de situaciones del pasado que no ocurrieron, pero fantaseamos con lo que podría haber ocurrido. 
+                | Para ello, es necesario utilizar dos elementos como en todos los condicionales: la condición, en este caso necesitamos el #[i Past Perfect] (pasado perfecto) y, para mostrar el resultado, utilizamos la expresión #[i "would have"] más el verbo en participio pasado.
 
 
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
       .col-lg-5: img(src='@/assets/curso/temas/tema2/1.png')
+    #t_2_1.titulo-segundo.color-primario(data-aos='fade-right')
+      h2 2.1 #[i Past perfect] / Pasado perfecto
     .row.justify-content-center.mb-5
       .col-lg-3: img.mb-3(src='@/assets/curso/temas/tema2/2.png', alt='')
       .col-lg-9
@@ -28,7 +32,7 @@
             p.fst-italic The past perfect is a tense that helps you show events that occurred before another event in the past. The Past Perfect uses “HAD” as an auxiliary verb. There isn’t a different auxiliary verb for the third person (he, she, it), all of the pronouns use the same auxiliary verb (HAD):
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
             p 
-              span.r-5 El pretérito perfecto es un tiempo verbal que ayuda a mostrar eventos que ocurrieron antes de otro evento en el pasado. El pasado perfecto utiliza “HAD” como verbo auxiliar. No hay un verbo auxiliar diferente para la tercera persona (he, she, it), todos los pronombres utilizan el mismo verbo auxiliar (HAD): 
+              span.r-5 El pretérito perfecto es un tiempo verbal que ayuda a mostrar eventos que ocurrieron antes de otro evento en el pasado. El pasado perfecto utiliza #[i “HAD”] como verbo auxiliar. No hay un verbo auxiliar diferente para la tercera persona #[i (he, she, it)], todos los pronombres utilizan el mismo verbo auxiliar #[i (HAD)]: 
 
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
         .titulo-sexto.color-primario(data-aos='fade-right')
@@ -38,7 +42,7 @@
         .row.justify-content-center.mb-5
           .col-lg-5
             TarjetaAudio.color-primario.bg-white.mb-3(
-              texto="My 'sister <span class='f-2'>had</span> <span class='r-3'>been</span> to Miami for her birthday."
+              texto="My sister <span class='f-2'>had</span> <span class='r-3'>been</span> to Miami for her birthday."
               :audio="require('@/assets/audios/tema2/1.mp3')"
               )
             
@@ -113,10 +117,10 @@
               | Te había llamado muchas veces antes que contestaras.
     Separador
     #t_2_2.titulo-segundo.color-primario(data-aos='fade-right')
-      h2 2.2  #[i Use of “would have”] (Uso del “would have”)
+      h2 2.2  #[i Use of “would have”] / Uso del #[i “would have”] 
     p.mb-5
       span.r-3.fw-normal.fst-italic “Would have” is just an expression that helps you show something you would have liked to do. There is only one important rule: the verb after “would have” has to be written in past participle. 
-      span.text-gray / #[i “Would have”] es solo una expresión que le ayuda a mostrar algo que le hubiera gustado hacer. Solo hay una regla importante: el verbo que sigue a “would have” tiene que escribirse en participio pasado.
+      span.text-gray / #[i “Would have”] es solo una expresión que le ayuda a mostrar algo que le hubiera gustado hacer. Solo hay una regla importante: el verbo que sigue a #[i “would have”] tiene que escribirse en participio pasado.
     .titulo-sexto.color-primario(data-aos='fade-right')
       h5 Figura 3 
       span.fst-italic Use of “would have”
@@ -124,7 +128,7 @@
       .col-lg-8: img(src='@/assets/curso/temas/tema2/10.svg', alt='')
       .col-lg-4
         TarjetaAudio.color-primario.bg-white.mb-3(
-          texto=" I would have <span class='f-2'>eaten</span> <span class='r-3'> if</span> I hadn’t eaten before.."
+          texto=" I would have <span class='f-2'>eaten</span> <span class='r-3'> if</span> I hadn’t eaten before."
           :audio="require('@/assets/audios/tema2/8.mp3')"
           )
     p.text-center.mb-5 
@@ -138,7 +142,7 @@
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema2/9.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic She 
-                span.r-4 would have earned
+                span.r-4 would have earned 
                 | a lot of money, but she didn’t get the job.
               br 
               |   Ella habría ganado mucho dinero, pero no obtuvo el trabajo. 
@@ -149,18 +153,18 @@
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema2/10.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic I 
-                span.r-4 would have gone
+                span.r-4 would have gone 
                 | o the party, but I was tired.
               br 
-              | Habría ido a la fiesta, pero estaba cansa
+              | Habría ido a la fiesta, pero estaba cansado
       .col-lg-4
         .tarjeta.color-acento-contenido.p-4.hbg--4.h-100
           img.mb-3(src='@/assets/curso/temas/tema2/13.png', alt='')
           .tarjeta.bg-white.border-1.p-3.d-flex.flex-column.justify-content-center
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema2/11.mp3')").m-auto.mb-2
             p.text-center
-              span.r-1.fst-italic Daniel 
-                span.r-4 ould have traveled 
+              span.r-1.fst-italic Daniel  
+                span.r-4 would have traveled 
                 | f he had enough money.
               br 
               |   Daniel habría viajado si hubiese tenido suficiente dinero. 
@@ -184,7 +188,7 @@
       .col-lg-7
         .contenedor-traductor
           .contenedor-traductor__eng
-            p.fst-italic The third conditional There isn’t a specific way of writing conditional sentences, and the third conditional is not an exception. Both ways, starting with the conditional word or the result are ok, it only depends on the intention or the emphasis of the sentence.
+            p.fst-italic There isn’t a specific way of writing conditional sentences, and the third conditional is not an exception. Both ways, starting with the conditional word or the result are ok, it only depends on the intention or the emphasis of the sentence.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
             p 
               span.r-5 No hay una forma específica de escribir oraciones condicionales, y el tercer condicional no es una excepción. De ambas formas, empezando por la frase condicional o el resultado, está bien, solo depende de la intención o el énfasis de la oración.
@@ -223,7 +227,7 @@
                   span.r-4 would have had 
                   | a terrible life.
                 br
-                | Si (usted) hubiese Martinado ese trabajo, (usted) habría tenido una vida terrible. 
+                | Si (usted) hubiese tomado ese trabajo, (usted) habría tenido una vida terrible. 
     
 
 

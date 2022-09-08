@@ -2,14 +2,15 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .row.justify-content-center.mb-5
-      .col-lg-4: img(src='@/assets/curso/temas/00.jpg', alt='')
-      .col-lg-8 
-        p 
-          span.r-4.fst-italic.fw-normal Up to this point, we have been able to appreciate everything that has to do with the present perfect and present perfect continuous tenses, how they are used and structured, their differences with other verb tenses that we learned previously (such as the simple past), and other grammar elements and vocabulary that complement this topic. For this reason, you are invited to appreciate the following conceptual scheme that summarizes the subject matter:
-          br
-          br
-          span.text-gray Hasta este punto, hemos podido apreciar todo lo que tiene que ver con los tiempos presente perfecto y presente perfecto continuo, cómo se usan y se estructuran, sus diferencias con otros tiempos verbales que aprendimos anteriormente, como por ejemplo el pasado simple, y demás elementos gramaticales y vocabulario que complementan este tema. Por ello, se invita a que aprecie el siguiente esquema conceptual que resume la temática tratada:
+    .tarjeta(style='background-color: #f0f4ff ').p-4.mb-5
+      .row.justify-content-center.mb-5.align-items-center
+        .col-lg-4: img(src='@/assets/curso/temas/00.jpg', alt='')
+        .col-lg-8 
+          p 
+            span.r-4.fst-italic.fw-normal Up to this point, we have been able to appreciate everything that has to do with conditional sentences, how the second and third conditionals are structured and used, as well as time expressions and general vocabulary useful to complement this topic. For this reason, you are invited to take a look at the following conceptual scheme that summarizes the subject matter:
+            br
+            br
+            span.text-gray Hasta este punto, hemos podido apreciar todo lo que tiene que ver con las oraciones condicionales, cómo se estructuran y se usan el segundo y el tercer condicional, además de expresiones temporales y vocabulario general útiles para complementar este tema. Por ello, se le invita a que observe el siguiente esquema conceptual que resume la temática tratada:
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

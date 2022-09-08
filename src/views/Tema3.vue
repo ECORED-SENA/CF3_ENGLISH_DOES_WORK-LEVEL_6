@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 #[i Time expressions] / (Expresiones de tiempo)
+      h1 #[i Time expressions] / Expresiones de tiempo
     .row.justify-content-center.mb-5
       .col-lg-5: img(src='@/assets/curso/temas/tema3/1.jpg')
       .col-lg-7.mb-lg-0.mb-3
@@ -20,7 +20,7 @@
       span.f-3.px-4.fst-italic.fw-bold Last
     p
       span.r-3.fst-italic.fw-normal We use “last” + “time reference" to refer to the particular moment we are pointing to, whichever is most recent or close to the present. 
-      span.text-gray / Usamos “last” + “referencia temporal” para referirnos al momento en particular que estamos señalando, ya sea el más reciente o cercano al presente.
+      span.text-gray / Usamos #[i “last”] + “referencia temporal” para referirnos al momento en particular que estamos señalando, ya sea el más reciente o cercano al presente.
     .row.justify-content-center.mb-5
       .col-lg-2 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
@@ -84,14 +84,14 @@
                   p.fst-italic In Spanish, we say “#[b el] verano pasado”, “#[b la] semana pasada”, “#[b el] año pasado”; but in English we do not use the definite article “u the”, we say “last summer”, “last week”, “last year”, we do NOT say “#[del the] last summer”, “#[del the] last week”, “#[del the] last year”.
                 .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp1}")
                   p 
-                    span.r-5 En español, decimos “el verano pasado”, “la semana pasada”, “el año pasado”; pero en inglés no usamos el artículo definido “the”, se dice “last summer”, “last week”, “last year”, NO se dice “#[del the] last summer”, “#[del the] last week”, “#[del the] last year”.
+                    span.r-5 En español, decimos “el verano pasado”, “la semana pasada”, “el año pasado”; pero en inglés no usamos el artículo definido #[i “the”], se dice #[i “last summer”], #[i “last week”], #[i “last year”], NO se dice #[i “#[del the] last summer”], #[i “#[del the] last week”], #[i “#[del the] last year”].
                 a.boton-traduccion(@click='ocultarEsp1 = !ocultarEsp1') Ver traducción
     .tarjeta.rounded-0.margin-n.p-5.mb-5(style='background-color: #F0F4FF')
       h3.mb-4
         span.f-3.px-4.fst-italic.fw-bold Ago
       p
         span.r-3.fst-italic.fw-normal We use “time reference” + “ago” to show how far back in the past or how long ago something happened. 
-        span.text-gray / Usamos “referencia temporal” + “ago” para mostrar qué tan atrás en el pasado o hace cuánto sucedió algo.
+        span.text-gray / Usamos “referencia temporal” + #[i “ago”] para mostrar qué tan atrás en el pasado o hace cuánto sucedió algo.
       .row.justify-content-center.mb-5
         .col-lg-2 
           .tarjeta.hbg--4.p-2(style='background-color: #FFDFE0')
@@ -104,35 +104,35 @@
           .tarjeta.hbg--4.p-2(style='background-color: #FFDFE0')
             img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/11.svg', alt='' style='width: 88px')
             TarjetaAudio.color-primario.bg-white(
-            texto="an hour"
+            texto="An hour"
             :audio="require('@/assets/audios/tema3/9.mp3')"
             )
         .col-lg-2 
           .tarjeta.hbg--4.p-2(style='background-color: #FFDFE0')
             img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/12.svg', alt='' style='width: 88px')
             TarjetaAudio.color-primario.bg-white(
-            texto="a week"
+            texto="A week"
             :audio="require('@/assets/audios/tema3/10.mp3')"
             )
         .col-lg-2 
           .tarjeta.hbg--4.p-2(style='background-color: #FFDFE0')
             img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/13.svg', alt='' style='width: 88px')
             TarjetaAudio.color-primario.bg-white(
-            texto="a month"
+            texto="A month"
             :audio="require('@/assets/audios/tema3/11.mp3')"
             )
         .col-lg-2 
           .tarjeta.hbg--4.p-2(style='background-color: #FFDFE0')
             img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/14.svg', alt='' style='width: 88px')
             TarjetaAudio.color-primario.bg-white(
-            texto="a year"
+            texto="A year"
             :audio="require('@/assets/audios/tema3/12.mp3')"
             )
         .col-lg-2 
           .tarjeta.hbg--4.p-2(style='background-color: #FFDFE0')
             img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/15.svg', alt='' style='width: 88px')
             TarjetaAudio.color-primario.bg-white(
-            texto="a long time"
+            texto="A long time"
             :audio="require('@/assets/audios/tema3/13.mp3')"
             )
       .row.justify-content-center.mb-5
@@ -219,9 +219,12 @@
                     br
                     | We also use the expression “the day before #[b yesterday”] to refer to “two days ago”, or in Spanish “anteayer”.
                 .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp1}")
-                  //todo! Pendiente montar traducción 
                   p 
-                    span.r-5 
+                    span.r-5 #[i “Evening”] es la parte del día entre el final de la tarde y la noche, y no hay una palabra exacta para esto en español; en cambio “night” sí puede interpretarse directamente como “noche”.
+                      br
+                      |Sabiendo esto, con #[i “evening”] sí usamos #[i “yesterday”]. Con #[i “night”], en cambio, decimos #[i “last night”], NO #[i yesterday night”.]
+                      br
+                      |También usamos la expresión #[i “the day before yesterday”] para referirnos a “hace dos días”, o, en español, “anteayer”.
                 a.boton-traduccion(@click='ocultarEsp1 = !ocultarEsp1') Ver traducción
     p Finalmente, de acuerdo con la temática explicada, escuche el siguiente diálogo y responda de acuerdo con las palabras faltantes:
 

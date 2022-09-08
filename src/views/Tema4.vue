@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 #[i If we hadn’t been busy, we would have gone to the fashion show] / (Si no hubiéramos estado ocupados, habríamos ido al desfile de moda)
+      h1 #[i If we hadn’t been busy, we would have gone to the fashion show] / Si no hubiéramos estado ocupados, habríamos ido al desfile de moda
     .row.justify-content-center.mb-5
       .col-lg-5: img(src='@/assets/curso/temas/tema4/1.jpg')
       .col-lg-7.mb-lg-0.mb-3
@@ -34,7 +34,7 @@
                   p.text-center
                     span.r-1.fst-italic I would watch online videos if I had a computer.
                     br
-                    | I would watch online videos if I had a computer.
+                    | Yo vería videos en línea si tuviera un computador.
               .tarjeta.color-acento-contenido.hbg--4.p-4
                 .row.justify-content-center.mb-3
                   .col-8
@@ -377,7 +377,6 @@ export default {
             'That’s good! Because famous influencers are doing very well with fashion content creation these days!',
           textoEsp: '',
           audio: require('@/assets/audios/a4/6.wav'),
-          palabra: 'fished',
         },
       ],
     },

@@ -154,9 +154,9 @@
             p.text-center
               span.r-1.fst-italic I 
                 span.r-4 would have gone 
-                | o the party, but I was tired.
+                | to the party, but I was tired.
               br 
-              | Habría ido a la fiesta, pero estaba cansado
+              | Habría ido a la fiesta, pero estaba cansado.
       .col-lg-4
         .tarjeta.color-acento-contenido.p-4.hbg--4.h-100
           img.mb-3(src='@/assets/curso/temas/tema2/13.png', alt='')

@@ -163,7 +163,7 @@
               | Next, we will see the second conditional structure:
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
             p 
-              span.r-5 Las estructuras no difieren de la mayoría de los tiempos gramaticales basados en verbos auxiliares. En las oraciones afirmativas, #[i "would"] se posiciona antes del verbo y este último siempre está en la forma base. Para la forma negativa, se coloca un "not" entre #[i "would"] y el verbo; la contracción de #[i "would not"] es #[i "wouldn't"], en caso de que se quieran las frases más cortas. En formas interrogativas, solo se posiciona #[i “would”] al principio.
+              span.r-5 Las estructuras no difieren de la mayoría de los tiempos gramaticales basados en verbos auxiliares. En las oraciones afirmativas, #[i "would"] se posiciona antes del verbo y este último siempre está en la forma base. Para la forma negativa, se coloca un #[i "not"] entre #[i "would"] y el verbo; la contracción de #[i "would not"] es #[i "wouldn't"], en caso de que se quieran las frases más cortas. En formas interrogativas, solo se posiciona #[i “would”] al principio.
                 br
                 br
                 |A continuación, veremos la estructura del segundo condicional:

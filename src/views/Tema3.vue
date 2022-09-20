@@ -22,42 +22,42 @@
       span.r-3.fst-italic.fw-normal We use “last” + “time reference" to refer to the particular moment we are pointing to, whichever is most recent or close to the present. 
       span.text-gray / Usamos #[i “last”] + “referencia temporal” para referirnos al momento en particular que estamos señalando, ya sea el más reciente o cercano al presente.
     .row.justify-content-center.mb-5
-      .col-lg-2 
+      .col-lg-2.mb-lg-0.mb-3 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/2.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="Night"
           :audio="require('@/assets/audios/tema3/1.mp3')"
           )
-      .col-lg-2 
+      .col-lg-2.mb-lg-0.mb-3 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/3.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="Weekend"
           :audio="require('@/assets/audios/tema3/2.mp3')"
           )
-      .col-lg-2 
+      .col-lg-2.mb-lg-0.mb-3 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/4.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="Year"
           :audio="require('@/assets/audios/tema3/3.mp3')"
           )
-      .col-lg-2 
-        .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
+      .col-lg-2.mb-lg-0.mb-3 
+        .tarjeta.hbg--4.px-1.py-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/5.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="Wednesday"
           :audio="require('@/assets/audios/tema3/4.mp3')"
           )
-      .col-lg-2 
+      .col-lg-2.mb-lg-0.mb-3 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/6.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
           texto="Christmas"
           :audio="require('@/assets/audios/tema3/5.mp3')"
           )
-      .col-lg-2 
+      .col-lg-2.mb-lg-0.mb-3 
         .tarjeta.hbg--4.p-2(style='background-color: #D5D6F0')
           img.m-auto.mb-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/tema3/7.svg', alt='' style='width: 88px')
           TarjetaAudio.color-primario.bg-white(
@@ -81,7 +81,7 @@
             .col-lg-9
               .contenedor-traductor
                 .contenedor-traductor__eng
-                  p.fst-italic In Spanish, we say “#[b el] verano pasado”, “#[b la] semana pasada”, “#[b el] año pasado”; but in English we do not use the definite article “u the”, we say “last summer”, “last week”, “last year”, we do NOT say “#[del the] last summer”, “#[del the] last week”, “#[del the] last year”.
+                  p.fst-italic In Spanish, we say “#[b el] verano pasado”, “#[b la] semana pasada”, “#[b el] año pasado”; but in English we do not use the definite article “the”, we say “last summer”, “last week”, “last year”, we do NOT say “#[del the] last summer”, “#[del the] last week”, “#[del the] last year”.
                 .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp1}")
                   p 
                     span.r-5 En español, decimos “el verano pasado”, “la semana pasada”, “el año pasado”; pero en inglés no usamos el artículo definido #[i “the”], se dice #[i “last summer”], #[i “last week”], #[i “last year”], NO se dice #[i “#[del the] last summer”], #[i “#[del the] last week”], #[i “#[del the] last year”].
@@ -149,7 +149,7 @@
       span.f-3.px-4.fst-italic.fw-bold Yesterday
     p
       span.r-4.fst-italic.fw-normal We use #[b “yesterday” or “yesterday + morning / at noon / afternoon / evening”]  to talk about the moments of the day before today. 
-      span.text-gray / Usamos #[i “yesterday”] o #[i “yesterday + morning] (en la mañana) /#[i at noon] (al mediodía)  / #[i afternoon] (en la tarde) / #[i evening] (en la tarde-noche*)” para hablar de los momentos del día antes de hoy.
+      span.text-gray / Usamos #[i “yesterday”] o #[i “yesterday + morning] (en la mañana) /#[i at noon] (al mediodía)  / #[i afternoon] (en la tarde) / #[i evening] (en la tarde-noche)” para hablar de los momentos del día antes de hoy.
 
     .row.justify-content-center.mb-5
       .col-lg-2 
@@ -199,7 +199,7 @@
         p.text-center.fw-bold For example: 
         img.mb-3(src='@/assets/curso/temas/tema3/23.png', alt='')
         TarjetaAudio.color-primario.bg-white.mb-3(
-          texto="f we had taken a taxi <span class='r-4'>yesterday morning</span>, we wouldn’t have missed the plane."
+          texto="If we had taken a taxi <span class='r-4'>yesterday morning</span>, we wouldn’t have missed the plane."
           :audio="require('@/assets/audios/tema3/21.mp3')"
           )
         p.ms-3 Si hubiéramos tomado un taxi #[b ayer por la mañana], no habríamos perdido el avión.

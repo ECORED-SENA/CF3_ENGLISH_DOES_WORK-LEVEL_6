@@ -114,7 +114,7 @@
                 | you many times before you picked up.
 
               br 
-              | Te había llamado muchas veces antes que contestaras.
+              | Te había llamado muchas veces antes de que contestaras.
     Separador
     #t_2_2.titulo-segundo.color-primario(data-aos='fade-right')
       h2 2.2  #[i Use of “would have”] / Uso del #[i “would have”] 
@@ -165,7 +165,7 @@
             p.text-center
               span.r-1.fst-italic Daniel  
                 span.r-4 would have traveled 
-                | f he had enough money.
+                | if he had enough money.
               br 
               |   Daniel habría viajado si hubiese tenido suficiente dinero. 
     p.text-center.mb-5 

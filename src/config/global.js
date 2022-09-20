@@ -179,7 +179,7 @@ export default {
         'verbo auxiliar que no tiene patrones verbales como la forma infinitiva, el gerundio o los participios, tampoco se conjuga con las personas gramaticales sino que acompaña al verbo principal modificándolo, para expresar ideas como posibilidad, intención o necesidad.',
     },
     {
-      termino: '<em>Past perfect</em> / Pasado perfecto:',
+      termino: '<em>Past perfect</em> / Pasado perfecto',
       significado:
         'tiempo verbal que se utiliza cuando se está hablando de dos situaciones que ocurrieron en el pasado; generalmente, la acción que ocurrió primero se narra en pasado perfecto y la más reciente se narra en pasado simple.',
     },
@@ -189,7 +189,7 @@ export default {
         'oración condicional que habla de situaciones hipotéticas, irreales o poco probables, en el presente o en el futuro, que ocurrirían si cierta condición se cumpliera.',
     },
     {
-      termino: '<em>Third conditional</em> / Tercer condicional:',
+      termino: '<em>Third conditional</em> / Tercer condicional',
       significado:
         'oración condicional con la que una persona imagina un pasado diferente, que hubiera ocurrido si cierta condición se hubiera cumplido.',
     },
